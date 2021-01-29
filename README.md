@@ -38,4 +38,8 @@ Class distribution: 357 benign, 212 malignant
 
 - Here, we use sklearn's support vector classifier (SVC) and also a gradient boosted tree to train our model.
 
-- Finally, a grid search is employed to find the best parameters for the model.
+- A grid search is employed to find the best parameters for the model. Finally, a feature selection method provided by the [yellowbrick](https://www.scikit-yb.org/en/latest/) module from sklearn helps confirm our ideas explored using seaborn.
+
+
+## Credits
+The exploratory data analysis in this project is part of a [guided project](https://www.coursera.org/projects/exploratory-data-analysis-seaborn) in coursera.
